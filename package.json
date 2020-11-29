@@ -1,0 +1,32 @@
+{
+  "name": "ticket-app",
+  "version": "1.0.0",
+  "description": "Ticket app with Next.js and Prisma",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Raja Jamal",
+  "license": "ISC",
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^0.16.0",
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@prisma/client": "^2.12.1",
+    "emotion-theming": "^11.0.0",
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.12.1",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
